@@ -1,0 +1,7 @@
+create table usuario(
+	id int primary key,
+	nome varchar(45),
+	login varchar(45),
+	senha varchar(32),
+	status char(1)	
+);
