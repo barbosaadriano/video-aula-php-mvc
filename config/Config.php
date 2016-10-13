@@ -41,7 +41,7 @@ class Config {
     }
 
     private static function getConfFile() {
-        include_once '../config/config.php';
+        include_once '../config/config.conf.php';
         return $conf;
     }
 
