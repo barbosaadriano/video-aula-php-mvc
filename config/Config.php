@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description of Config
+ * Description of Config class
  *
  * @author abarbosa
  */
