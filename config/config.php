@@ -1,7 +1,11 @@
 <?php
-define("URL", "http://localhost/phpOopApp/");
-define("HOST", '127.0.0.1');
-define("PORT", '3306');
-define("DB_NAME", 'test');
-define("USER_NAME", 'root');
-define("PASSWORD", '');
+$conf = array(
+    'URL' => "http://localhost/php-mvc/public/",
+    'HOST' => "localhost",
+    'PORT' => 3306,
+    'DB_NAME' => "mvcteste",
+    'USER_NAME' => "root",
+    'PASSWORD' => "",
+    'DEFAULT_CONTROLLER' => "ControleUsuario",
+    'DEFAULT_METHOD' => "listaDeUsuario",
+);

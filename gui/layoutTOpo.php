@@ -11,6 +11,6 @@
         <title>Aplicativo Teste</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="<?php echo URL; ?>public/css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo URL; ?>/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>

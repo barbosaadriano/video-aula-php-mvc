@@ -7,48 +7,45 @@
  */
 class TApp {
 
+    const SLUG_CLASS = 'class';
+    const SLUG_METHOD = 'method';
+
     private $to;
     private $method;
     private $params;
 
     public function __construct() {
-
-        $url = isset($_GET['url']) ? $_GET['url'] : false;
-        $url = rtrim($url, "/");
-
+        $url = isset($_REQUEST['url']) ? rtrim($_REQUEST['url'], "/") : false;
         if ($url) {
             $arr = explode("/", $url);
             if (isset($arr[0])) {
-                $to = strtolower($arr[0]);
-                $to = explode("-", $to);
-                $strTo = '';
-                foreach ($to as $k => $v) {
-                    $strTo.= strtoupper(substr($v, 0, 1)) . substr($v, 1);
-                }
-                $this->to = $strTo;
+                $this->to = $this->getNameFromSlug($arr[0]);
             }
-
             if (isset($arr[1])) {
-                $mt = strtolower($arr[1]);
-                $mt = explode("-", $mt);
-                $strMt = '';
-                foreach ($mt as $k => $v) {
-                    if ($k === 0) {
-                        $strMt.= $v;
-                    } else {
-                        $strMt.= strtoupper(substr($v, 0, 1)) . substr($v, 1);
-                    }
-                }
-                $this->method = $strMt;
+                $this->method = $this->getNameFromSlug($arr[1], self::SLUG_METHOD);
             }
             unset($arr[0]);
             unset($arr[1]);
             $this->params = $arr;
         } else {
-            $this->to = "ControleUsuario";
-            $this->method = "listaDeUsuario";
+            $this->to = DEFAULT_CONTROLLER;
+            $this->method = DEFAULT_METHOD;
             $this->params = null;
         }
+    }
+
+    /**
+     * 
+     * @param String $slug um slug qualquer
+     * @param String $tipo um tipo que vem das constantes da classe TApp
+     * @return String  minha-classe
+     */
+    private function getNameFromSlug($slug, $tipo = self::SLUG_CLASS) {
+        $tmp = str_replace(" ", "", ucwords(implode(" ", explode("-", strtolower($slug)))));
+        if ($tipo == self::SLUG_CLASS) {
+            return $tmp;
+        }
+        return lcfirst($tmp);
     }
 
     public function executar() {
@@ -57,7 +54,7 @@ class TApp {
                 $c = new $this->to();
                 if ($c instanceof IPrivateTO) {
                     session_start();
-                    if (!$_SESSION['usuario']) {
+                    if (!isset($_SESSION['usuario'])) {
                         header("location: " . URL . "login/autenticar");
                     }
                 }
@@ -68,14 +65,12 @@ class TApp {
                         $c->{$this->method}();
                     }
                 } else {
-                    // tratar erro
                     throw new Exception("Metodo {$this->method} não existe para {$this->to}!");
                 }
             } catch (Exception $exc) {
-                throw new Exception($exc->getTraceAsString());
+                throw $exc;
             }
         } else {
-            // tratar error 
             throw new Exception("Classe {$this->to} não encontrada!");
         }
     }

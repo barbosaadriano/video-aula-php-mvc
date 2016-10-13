@@ -16,14 +16,14 @@ class TGui {
     }
 
     public function renderizar() {
-        include_once './gui/layoutTOpo.php';
-        if (file_exists("./gui/" . $this->nome . ".php")) {
-            include_once "./gui/" . $this->nome . ".php";
+        include_once '../gui/layoutTOpo.php';
+        if (file_exists("../gui/" . $this->nome . ".php")) {
+            include_once "../gui/" . $this->nome . ".php";
         } else {
             //erro
             throw new Exception("View {$this->nome} não encontrada!");
         }
-        include_once './gui/layoutRodape.php';
+        include_once '../gui/layoutRodape.php';
     }
 
     public function getDados($objeto = false) {
