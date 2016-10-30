@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description of Config
+ * Description of Config class
  *
  * @author abarbosa
  */
@@ -41,7 +41,7 @@ class Config {
     }
 
     private static function getConfFile() {
-        include_once '../config/config.global.php';
+        include_once '../config/config.conf.php';
         return $conf;
     }
 
