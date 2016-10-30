@@ -5,3 +5,4 @@ create table usuario(
 	senha varchar(32),
 	status char(1)	
 );
+alter table usuario add thumbnail_path varchar(100);

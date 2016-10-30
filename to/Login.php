@@ -44,4 +44,12 @@ class Login {
         header("location: " . URL);
     }
 
+    public function getThumb() {
+        $login = isset($_POST['user']) ? $_POST['user'] : '';
+        $du = new DaoUsuario();
+        $path = $du->getPath($login);
+        header("Content-Type: application/json");
+        echo json_encode(array('path' => $path));
+    }
+
 }

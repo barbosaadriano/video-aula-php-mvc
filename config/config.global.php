@@ -8,4 +8,5 @@ $conf = array(
     'PASSWORD' => "",
     'DEFAULT_CONTROLLER' => "ControleUsuario",
     'DEFAULT_METHOD' => "listaDeUsuario",
+    'PATH_UPLOADS' => "./uploads/",
 );
