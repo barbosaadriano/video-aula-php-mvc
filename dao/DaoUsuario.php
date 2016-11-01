@@ -107,7 +107,7 @@ class DaoUsuario implements IDao {
     }
 
     public function autenticar($login, $senha) {
-        $sql = "select count(1) as U from usuario where login=:LOGIN and senha=:SENHA";
+        $sql = "select * from usuario where login=:LOGIN and senha=:SENHA";
         $cnx = Conexao::getConexao();
         $sth = $cnx->prepare($sql);
         $sth->bindParam("LOGIN", $login);
@@ -117,10 +117,8 @@ class DaoUsuario implements IDao {
         } catch (Exception $exc) {
             return $exc->getMessage();
         }
-        $res = $sth->fetch();
-        $id = $res['U'];
-
-        return $id > 0;
+        $res = $sth->fetchObject("Usuario");
+        return $res;
     }
 
 }

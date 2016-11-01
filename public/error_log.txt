@@ -1,0 +1,28 @@
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. ControleUsuario->listaDeUsuario() C:\wamp\www\mvc-php\libs\TApp.php:65
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\ControleUsuario.php:15
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19

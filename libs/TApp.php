@@ -38,7 +38,7 @@ class TApp {
      * 
      * @param String $slug um slug qualquer
      * @param String $tipo um tipo que vem das constantes da classe TApp
-     * @return String  minha-classe
+     * @return String  
      */
     private function getNameFromSlug($slug, $tipo = self::SLUG_CLASS) {
         $tmp = str_replace(" ", "", ucwords(implode(" ", explode("-", strtolower($slug)))));
@@ -71,7 +71,7 @@ class TApp {
                 throw $exc;
             }
         } else {
-            throw new Exception("Classe {$this->to} não encontrada!");
+            throw new Exception("Classe {$this->to} não encontrada!",404);
         }
     }
 

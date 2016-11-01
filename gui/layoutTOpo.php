@@ -14,3 +14,23 @@
         <link href="<?php echo URL; ?>/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <?php
+                @session_start();
+                if (isset($_SESSION['usuarioObj'])):
+                    $user = $_SESSION['usuarioObj'];
+                    if ($user instanceof Usuario) :
+                        ?>
+                        <div class="alert alert-info">
+                            <h3>Usuário logado</h3>
+                            <?= $user->getNome() ?>
+                            -
+                            <?= $user->getLogin() ?>
+                        </div>
+                        <?php
+                    endif;
+                endif;
+                ?>
+            </div>
+        </div>

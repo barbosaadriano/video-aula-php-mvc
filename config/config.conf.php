@@ -1,6 +1,6 @@
 <?php
 $conf = array(
-    'URL' => "http://localhost/php-mvc/public/",
+    'URL' => "http://localhost/mvc-php/public/",
     'HOST' => "localhost",
     'PORT' => 3306,
     'DB_NAME' => "mvcteste",

@@ -27,9 +27,10 @@ class Login {
         }
         $du = new DaoUsuario();
         $ret = $du->autenticar($login, $senha);
-        if ($ret) {
+        if ($ret instanceof Usuario) {
             session_start();
             $_SESSION['usuario'] = "autenticado";
+            $_SESSION['usuarioObj'] = $ret;
             header("location: " . URL);
         } else {
             session_start();

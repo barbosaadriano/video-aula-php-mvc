@@ -31,6 +31,7 @@ function __autoload($c) {
 foreach (Config::getInstance()->getConfs() as $nome => $valor) {
     define($nome, $valor);
 }
+
 $app = new TApp();
 try {
     $app->executar();
