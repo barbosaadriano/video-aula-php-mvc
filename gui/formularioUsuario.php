@@ -15,6 +15,9 @@
         $senha = $usuario->getSenha();
         $status = $usuario->getStatus();
         $thumbPath = $usuario->getThumbnail_path();
+        if ($thumbPath == null || trim($thumbPath) == '') {
+            $thumbPath = './img/noimage.png';
+        }
     }
     ?>
 

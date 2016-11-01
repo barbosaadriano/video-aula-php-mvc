@@ -28,6 +28,7 @@
                             <?= $user->getNome() ?>
                             -
                             <?= $user->getLogin() ?>
+                            <img src="<?=URL.$user->getThumbnail_path()?>" width="50" />
                         </div>
                         <?php
                     endif;

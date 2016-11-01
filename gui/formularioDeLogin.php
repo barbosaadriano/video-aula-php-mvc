@@ -26,8 +26,12 @@
             $('#imgwrap').empty();
             $.post('<?= URL ?>login/get-thumb/', {user: login}, function (d) {
                 try {
+                    var name = './img/noimage.png';
+                    if (d.path !== null) {
+                        name = d.path;
+                    }
                     $("<img />", {
-                        "src": '<?=URL?>'+d.path,
+                        "src": '<?= URL ?>' + name,
                         "class": "thumbnail"
                     }).appendTo($('#imgwrap'));
                 } catch (e) {
