@@ -36,6 +36,7 @@ class Usuario {
      * @var String status do usuário
      */
     private $status;
+    private $thumbnail_path;
 
     public function __construct() {
 //        $this->id = null;
@@ -79,6 +80,14 @@ class Usuario {
 
     public function setStatus($status) {
         $this->status = $status;
+    }
+
+    function getThumbnail_path() {
+        return $this->thumbnail_path;
+    }
+
+    function setThumbnail_path($thumbnail_path) {
+        $this->thumbnail_path = $thumbnail_path;
     }
 
 }

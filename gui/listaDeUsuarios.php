@@ -11,6 +11,7 @@
                     <tr>
                         <th>ID</th>
                         <th>NOME</th>
+                        <th>Image</th>
                         <th>controles</th>
                     </tr>
                 <tbody>
@@ -23,6 +24,7 @@
                             $usuario instanceof Usuario;
                             echo "<tr><td>{$usuario->getId()}</td>";
                             echo "<td>{$usuario->getNome()}</td>";
+                            echo "<td><img class=\"thumbnail thumb\" src=\"".URL."{$usuario->getThumbnail_path()}\"/></td>";
                             echo "<td>"
                             . "<a class=\"btn btn-default\" href=\"" . URL .
                             "controle-usuario/excluir/{$usuario->getId()}\">excluir</a> &nbsp;"

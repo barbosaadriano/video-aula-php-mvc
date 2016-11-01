@@ -12,6 +12,7 @@
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo URL; ?>/css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo URL; ?>/css/custom.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">

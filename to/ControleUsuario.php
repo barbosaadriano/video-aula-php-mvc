@@ -5,7 +5,7 @@
  *
  * @author Administrador
  */
-class ControleUsuario implements IPrivateTO{
+class ControleUsuario implements IPrivateTO {
 
     public function listaDeUsuario() {
         $du = new DaoUsuario();
@@ -32,7 +32,20 @@ class ControleUsuario implements IPrivateTO{
     }
 
     public function salvar() {
-        //Array ( [id] => 1 [nome] => teste [login] => teste [senha] => teste [status] => A ) 
+        $uploadfile = null;
+        if (isset($_FILES['fileUpload']) && trim($_FILES['fileUpload']['name']) != '') {
+            try {
+                $uploaddir = PATH_UPLOADS;
+                $uploadfile = $uploaddir . md5(basename($_FILES['fileUpload']['name']) . time());
+                if (!move_uploaded_file($_FILES['fileUpload']['tmp_name'], $uploadfile)) {
+                    throw new Exception("Não foi possível fazer o upload do arquivo!");
+                }
+            } catch (Exception $exc) {
+                throw $exc;
+            }
+        } else {
+            $uploadfile = isset($_POST['path_thumb']) ? $_POST['path_thumb'] : null;
+        }
         $u = new Usuario();
         $id = isset($_POST['id']) ? $_POST['id'] : FALSE;
         if (trim($id) != "") {
@@ -58,6 +71,7 @@ class ControleUsuario implements IPrivateTO{
         $u->setLogin($login);
         $u->setSenha($senha);
         $u->setStatus($status);
+        $u->setThumbnail_path($uploadfile);
 
         $du = new DaoUsuario();
         $usu = $du->salvar($u);
