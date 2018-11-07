@@ -1,1 +1,4 @@
 /nbproject/private/
+/public/uploads/
+/config/config.local.php
+*log.*

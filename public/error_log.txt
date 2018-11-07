@@ -1,28 +1,32 @@
-[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
-[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. ControleUsuario->listaDeUsuario() C:\wamp\www\mvc-php\libs\TApp.php:65
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\ControleUsuario.php:15
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
-[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
-[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
-[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
-[01-Nov-2016 04:11:43 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
-[01-Nov-2016 04:11:43 Europe/Paris] PHP Stack trace:
-[01-Nov-2016 04:11:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
-[01-Nov-2016 04:11:43 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
-[01-Nov-2016 04:11:43 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
-[01-Nov-2016 04:11:43 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
-[01-Nov-2016 04:11:43 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
-[01-Nov-2016 04:11:58 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 19
-[01-Nov-2016 04:11:58 Europe/Paris] PHP Stack trace:
-[01-Nov-2016 04:11:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
-[01-Nov-2016 04:11:58 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
-[01-Nov-2016 04:11:58 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
-[01-Nov-2016 04:11:58 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
-[01-Nov-2016 04:11:58 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[16-Oct-2018 21:47:17 America/Sao_Paulo] PHP Fatal error:  Declaration of DaoUsuario::salvar(Usuario $u) must be compatible with IDao::salvar($u) in C:\local-webserver\www\mvc-php\dao\DaoUsuario.php on line 8
+[23-Oct-2018 23:19:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getEmpresas() from context 'TApp' in C:\local-webserver\www\mvc-php\libs\TApp.php:63
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\local-webserver\www\mvc-php\libs\TApp.php on line 63
+[23-Oct-2018 23:20:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getEmpresas() from context 'TApp' in C:\local-webserver\www\mvc-php\libs\TApp.php:63
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\local-webserver\www\mvc-php\libs\TApp.php on line 63
+[23-Oct-2018 23:29:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to private method ControleUsuario::getEmpresas() from context 'TApp' in C:\local-webserver\www\mvc-php\libs\TApp.php:63
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
+#1 {main}
+  thrown in C:\local-webserver\www\mvc-php\libs\TApp.php on line 63
+[30-Oct-2018 23:25:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\local-webserver\www\mvc-php\gui\formularioUsuario.php:60
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\libs\TGui.php(21): include_once()
+#1 C:\local-webserver\www\mvc-php\to\ControleUsuario.php(25): TGui->renderizar()
+#2 C:\local-webserver\www\mvc-php\libs\TApp.php(63): ControleUsuario->editar(Array)
+#3 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\local-webserver\www\mvc-php\gui\formularioUsuario.php on line 60
+[30-Oct-2018 23:27:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\local-webserver\www\mvc-php\gui\formularioUsuario.php:60
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\libs\TGui.php(21): include_once()
+#1 C:\local-webserver\www\mvc-php\to\ControleUsuario.php(38): TGui->renderizar()
+#2 C:\local-webserver\www\mvc-php\libs\TApp.php(63): ControleUsuario->novo(Array)
+#3 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
+#4 {main}
+  thrown in C:\local-webserver\www\mvc-php\gui\formularioUsuario.php on line 60

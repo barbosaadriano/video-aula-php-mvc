@@ -1,19 +1,24 @@
+<style>
+
+</style>
 <div class="container">
     <?php
     $id = "";
     $nome = "";
     $login = "";
     $senha = "";
-    $status = "";
+    $situacao = "";
 
     $usuario = $this->getDados("usuario");
+    $empresas = $this->getDados("empresas");
+
     if ($usuario) {
         $usuario instanceof Usuario;
         $id = $usuario->getId();
         $nome = $usuario->getNome();
         $login = $usuario->getLogin();
         $senha = $usuario->getSenha();
-        $status = $usuario->getStatus();
+        $situacao = $usuario->getStatus();
         $thumbPath = $usuario->getThumbnail_path();
         if ($thumbPath == null || trim($thumbPath) == '') {
             $thumbPath = './img/noimage.png';
@@ -33,16 +38,39 @@
         <label>status</label><br>
         <select class="form-control" name="status">
             <option value="A" <?php
-            if ($status == 'A') {
+            if ($situacao == 'A') {
                 echo 'selected="true"';
             }
             ?>>Ativo</option>
             <option value="I" <?php
-            if ($status == 'I') {
+            if ($situacao == 'I') {
                 echo 'selected="true"';
             }
             ?>>Inativo</option>
+        </select><br/>
+
+        <label>Empresas</label><br/>
+        <select class="form-control" name="empresa">
+            <?php
+            foreach ($empresas as $emp) :
+                $emp instanceof Empresa;
+                ?>
+                <option <?php
+                if (
+                        ($usuario->getEmpresa() instanceof Empresa) &&
+                        ( $usuario->getEmpresa()->getId() === $emp->getId() )
+                ):
+                    ?>
+                        selected = "selected"
+                        <?php
+                    endif;
+                    ?> value="<?= $emp->getId() ?>">
+                    <?= $emp->getNome() ?></option>
+                <?php
+            endforeach;
+            ?>
         </select>
+
         <hr/>
         <div class="container">
             <div class="row">
@@ -60,7 +88,7 @@
             </div>
         </div>
         <hr/>
-        <input type="submit" class="btn btn-success" value="Salvar"><br>
+        <input type="submit" class="btn btn-success btn-lg" value="Salvar">
         <a class="btn btn-default" href="<?php echo URL; ?>controle-usuario/lista-de-usuario">voltar</a><br>
     </form>
 </div>

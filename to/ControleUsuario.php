@@ -21,13 +21,20 @@ class ControleUsuario implements IPrivateTO {
         $u = $du->listar($p1);
         $v = new TGui("formularioUsuario");
         $v->addDados("usuario", $u);
+        $v->addDados("empresas", $this->getEmpresas());
         $v->renderizar();
+    }
+
+    private function getEmpresas() {
+        $de = new DaoEmpresa();
+        return $de->listarTodos();
     }
 
     public function novo() {
         $u = new Usuario();
         $v = new TGui("formularioUsuario");
         $v->addDados("usuario", $u);
+        $v->addDados("empresas", $this->getEmpresas());
         $v->renderizar();
     }
 
@@ -66,6 +73,16 @@ class ControleUsuario implements IPrivateTO {
         $status = isset($_POST['status']) ? $_POST['status'] : FALSE;
         if (!$status || trim($status) == "") {
             throw new Exception("O campo status é obrigatório!");
+        }
+        $emp = isset($_POST['empresa']) ? $_POST['empresa'] : false;
+        if (!$emp) {
+            throw new Exception(" A Empresa é obrigatória!");
+        } else {
+            $demp = new DaoEmpresa();
+            $empresa = $demp->listar($emp);
+            if($empresa instanceof Empresa) {
+                $u->setEmpresa($empresa);
+            }
         }
         $u->setNome($nome);
         $u->setLogin($login);

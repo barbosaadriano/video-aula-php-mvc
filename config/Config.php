@@ -41,8 +41,15 @@ class Config {
     }
 
     private static function getConfFile() {
-        include_once '../config/config.conf.php';
-        return $conf;
+        $confl = [];
+        $confg = [];
+        if (file_exists(__DIR__ . "/config.local.php")) {
+            include_once '../config/config.local.php';
+        }
+        if (file_exists(__DIR__ . "/config.global.php")) {
+            include_once '../config/config.global.php';
+        }
+        return array_merge($confg, $confl);
     }
 
 }
