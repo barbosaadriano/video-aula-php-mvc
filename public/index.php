@@ -18,7 +18,8 @@ function __autoload($c) {
         '../model/',
         '../libs/',
         '../gui/',
-        '../dao/'
+        '../dao/',
+        '../exemplo/'
     );
 
     foreach ($diretorios as $dir) {

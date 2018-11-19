@@ -30,3 +30,15 @@ Stack trace:
 #3 C:\local-webserver\www\mvc-php\public\index.php(37): TApp->executar()
 #4 {main}
   thrown in C:\local-webserver\www\mvc-php\gui\formularioUsuario.php on line 60
+[13-Nov-2018 15:49:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getHtmlComponent() on null in C:\local-webserver\www\mvc-php\gui\layoutTOpo.php:19
+Stack trace:
+#0 C:\local-webserver\www\mvc-php\libs\TGui.php(19): include_once()
+#1 C:\local-webserver\www\mvc-php\to\ControleUsuario.php(15): TGui->renderizar()
+#2 C:\local-webserver\www\mvc-php\libs\TApp.php(63): ControleUsuario->listaDeUsuario(Array)
+#3 C:\local-webserver\www\mvc-php\public\index.php(38): TApp->executar()
+#4 {main}
+  thrown in C:\local-webserver\www\mvc-php\gui\layoutTOpo.php on line 19
+[13-Nov-2018 15:53:48 America/Sao_Paulo] PHP Notice:  Undefined index: rota in C:\local-webserver\www\mvc-php\exemplo\MenuFactory.php on line 37
+[13-Nov-2018 15:53:48 America/Sao_Paulo] PHP Notice:  Undefined index: rota in C:\local-webserver\www\mvc-php\exemplo\MenuFactory.php on line 37
+[13-Nov-2018 15:59:45 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class Menu could not be converted to string in C:\local-webserver\www\mvc-php\gui\layoutTOpo.php on line 43
+[13-Nov-2018 16:18:21 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class Menu could not be converted to string in C:\local-webserver\www\mvc-php\gui\inicio.php on line 6

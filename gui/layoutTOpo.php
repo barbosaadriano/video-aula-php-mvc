@@ -15,6 +15,7 @@
         <link href="<?php echo URL; ?>/css/custom.css" rel="stylesheet">
     </head>
     <body>
+
         <div class="container">
             <div class="row">
 
@@ -26,16 +27,16 @@
                         ?>
                         <div class="alert alert-info">
                             <a href="<?= URL ?>">
-                                <?php 
-                                    new Cazinha();
+                                <?php
+                                new Cazinha();
                                 ?>
                             </a>
-
+                   
                             <h3>Usuário logado</h3>
                             <?= $user->getNome() ?>
                             -
                             <?= $user->getLogin() ?>
-                            <img src="<?= URL . $user->getThumbnail_path() ?>" width="50" />
+                            <img src="<?= URL . $user->getThumbnail_path() ?>" width="50" />                           
                         </div>
                         <?php
                     endif;
