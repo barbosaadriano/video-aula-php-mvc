@@ -5,14 +5,14 @@
  *
  * @author Administrador
  */
-class DaoUsuario implements IDao {
+class DaoProduto implements IDao {
 
     public function excluir($u) {
-        $sql = "delete FROM usuario where id=:ID";
+        $sql = "delete FROM produto where id=:ID";
         $conexao = Conexao::getConexao();
         $sth = $conexao->prepare($sql);
-        $p1 = $u->getId();
-        $sth->bindParam("ID", $p1);
+        $pl = $u->getId();
+        $sth->bindParam("ID", $pl);
         try {
             $sth->execute();
             return true;
@@ -23,40 +23,40 @@ class DaoUsuario implements IDao {
 
     /**
      * 
-     * @param int $p1
-     * @return Usuario
+     * @param int $pl
+     * @return Produto
      */
-    public function listar($p1) {
+    public function listar($pl) {
 
-        $sql = "SELECT id, nome, login, senha, status, thumbnail_path, idempresa FROM usuario where id=:ID";
+        $sql = "SELECT * FROM produto where id=:ID";
         $conexao = Conexao::getConexao();
         $sth = $conexao->prepare($sql);
-        $sth->bindParam("ID", $p1);
+        $sth->bindParam("ID", $pl);
         try {
             $sth->execute();
         } catch (Exception $exc) {
             echo $exc->getMessage();
         }
-        $usu = $sth->fetchObject("Usuario");
-        $demp = new DaoEmpresa();
-        if ($usu->idempresa) {
-        $emp = $demp->listar($usu->idempresa);
-        $usu->setEmpresa($emp); 
+        $pro = $sth->fetchObject("produto");
+        $dp = new DaoCategoria();
+        if ($pro->idcategoria) {
+        $p = $dp->listar($pro->idcategoria);
+        $pro->setCategoria($p); 
         }
-        return $usu;
+        return $pro;
     }
 
     /**
      * 
-     * @param int $p1
+     * @param int $pl
      * @return ArrayObject
      */
-    public function getPath($login) {
+    public function getPath($descricao) {
 
-        $sql = "SELECT thumbnail_path FROM usuario where login=:login";
+        $sql = "SELECT thumbnail_path FROM produto where descricao=:descricao";
         $conexao = Conexao::getConexao();
         $sth = $conexao->prepare($sql);
-        $sth->bindParam("login", $login);
+        $sth->bindParam("descricao", $descricao);
         try {
             $sth->execute();
         } catch (Exception $exc) {
@@ -71,7 +71,7 @@ class DaoUsuario implements IDao {
     }
 
     public function listarTodos() {
-        $sql = "SELECT id, nome, login, senha, status, thumbnail_path FROM usuario";
+        $sql = "SELECT id, codigo, descricao, valor, status, thumbnail_path FROM produto";
         $conexao = Conexao::getConexao();
         $sth = $conexao->prepare($sql);
         try {
@@ -80,7 +80,7 @@ class DaoUsuario implements IDao {
             echo $exc->getMessage();
         }
         $arUsu = array();
-        while ($usu = $sth->fetchObject("Usuario")) {
+        while ($usu = $sth->fetchObject("Produto")) {
 
             $arUsu[] = $usu;
         }
@@ -88,28 +88,28 @@ class DaoUsuario implements IDao {
     }
 
     public function salvar($u) {
-        $nome = $u->getNome();
-        $login = $u->getLogin();
-        $senha = $u->getSenha();
+        $codigo = $u->getCodigo();
+        $descricao = $u->getDescricao();
+        $valor = $u->getValor();
         $status = $u->getStatus();
         $thumb = $u->getThumbnail_path();
 
         if ($u->getId()) {
             $id = $u->getId();
-            $sql = "update usuario set nome=:nome, login=:login, senha=:senha, "
+            $sql = "update produto set codigo=:codigo, descricao=:descricao, valor=:valor, "
                     . "status=:status, thumbnail_path=:thumbnail_path where id=:id";
         } else {
             $id = $this->generateID();
             $u->setId($id);
-            $sql = "insert into usuario(id,nome,login,senha,status, thumbnail_path) values "
-                    . "(:id,:nome, :login,:senha,:status, :thumbnail_path)";
+            $sql = "insert into produto(id,codigo,descricao,valor,status, thumbnail_path) values "
+                    . "(:id,:codigo, :descricao,:valor,:status, :thumbnail_path)";
         }
         $cnx = Conexao::getConexao();
         $sth = $cnx->prepare($sql);
         $sth->bindParam("id", $id);
-        $sth->bindParam("nome", $nome);
-        $sth->bindParam("login", $login);
-        $sth->bindParam("senha", $senha);
+        $sth->bindParam("codigo", $codigo);
+        $sth->bindParam("descricao", $descricao);
+        $sth->bindParam("valor", $valor);
         $sth->bindParam("status", $status);
         $sth->bindParam("thumbnail_path", $thumb);
         try {
@@ -125,7 +125,7 @@ class DaoUsuario implements IDao {
      * @return int
      */
     private function generateID() {
-        $sql = "select (coalesce(max(id),0)+1) as ID from usuario";
+        $sql = "select (coalesce(max(id),0)+1) as ID from produto";
         $cnx = Conexao::getConexao();
         $sth = $cnx->prepare($sql);
         try {
@@ -138,19 +138,5 @@ class DaoUsuario implements IDao {
         return $id;
     }
 
-    public function autenticar($login, $senha) {
-        $sql = "select * from usuario where login=:LOGIN and senha=:SENHA";
-        $cnx = Conexao::getConexao();
-        $sth = $cnx->prepare($sql);
-        $sth->bindParam("LOGIN", $login);
-        $sth->bindParam("SENHA", $senha);
-        try {
-            $sth->execute();
-        } catch (Exception $exc) {
-            return $exc->getMessage();
-        }
-        $res = $sth->fetchObject("Usuario");
-        return $res;
-    }
-
+    
 }

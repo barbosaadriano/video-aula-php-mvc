@@ -22,7 +22,8 @@ class Login {
         $login = isset($_POST['login']) ? $_POST['login'] : FALSE;
         $senha = isset($_POST['senha']) ? $_POST['senha'] : FALSE;
         if (!$login || !$senha) {
-            echo 'Login e Senha devem ser informados!';
+            $msg = 'Login e Senha devem ser informados!';
+            throw new Exception($msg); 
             return false;
         }
         $du = new DaoUsuario();

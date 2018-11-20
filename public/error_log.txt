@@ -26,3 +26,651 @@
 [01-Nov-2016 04:11:58 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
 [01-Nov-2016 04:11:58 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
 [01-Nov-2016 04:11:58 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[24-Oct-2018 00:22:47 UTC] PHP Fatal error:  Call to undefined method Usuario::getSituacao() in C:\wamp64\www\aulas\aula02-10O\gui\listaDeEmpresa.php on line 27
+[24-Oct-2018 00:22:47 UTC] PHP Stack trace:
+[24-Oct-2018 00:22:47 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:22:47 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:22:47 UTC] PHP   3. ControleEmpresa->listaDeEmpresa() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:22:47 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:15
+[24-Oct-2018 00:22:47 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:25:55 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:25:55 UTC] PHP Stack trace:
+[24-Oct-2018 00:25:55 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:25:55 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:25:55 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:25:55 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:25:55 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:25:55 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:25:55 UTC] PHP Stack trace:
+[24-Oct-2018 00:25:55 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:25:55 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:25:55 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:25:55 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:25:55 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:32 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:32 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:32 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:32 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:32 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:32 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:32 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:32 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:32 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:32 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:32 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:32 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:32 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:32 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:32 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:32 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:32 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:33 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:33 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:33 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:33 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:33 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:33 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:33 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:38 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 28
+[24-Oct-2018 00:27:38 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:38 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:38 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:38 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:38 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:38 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 00:27:38 UTC] PHP Notice:  Undefined variable: situacao in C:\wamp64\www\aulas\aula02-10O\gui\formularioEmpresa.php on line 33
+[24-Oct-2018 00:27:38 UTC] PHP Stack trace:
+[24-Oct-2018 00:27:38 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 00:27:38 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 00:27:38 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 00:27:38 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleEmpresa.php:31
+[24-Oct-2018 00:27:38 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 01:29:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\formularioUsuario.php on line 50
+[24-Oct-2018 01:29:06 UTC] PHP Stack trace:
+[24-Oct-2018 01:29:06 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 01:29:06 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 01:29:06 UTC] PHP   3. ControleUsuario->editar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 01:29:06 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleUsuario.php:25
+[24-Oct-2018 01:29:06 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 01:29:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\formularioUsuario.php on line 50
+[24-Oct-2018 01:29:36 UTC] PHP Stack trace:
+[24-Oct-2018 01:29:36 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 01:29:36 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 01:29:36 UTC] PHP   3. ControleUsuario->editar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 01:29:36 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleUsuario.php:25
+[24-Oct-2018 01:29:36 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 01:30:17 UTC] PHP Notice:  Undefined property: Empresa::$getID in C:\wamp64\www\aulas\aula02-10O\gui\formularioUsuario.php on line 53
+[24-Oct-2018 01:30:17 UTC] PHP Stack trace:
+[24-Oct-2018 01:30:17 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 01:30:17 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 01:30:17 UTC] PHP   3. ControleUsuario->editar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 01:30:17 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleUsuario.php:25
+[24-Oct-2018 01:30:17 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[24-Oct-2018 01:30:17 UTC] PHP Notice:  Undefined property: Empresa::$getID in C:\wamp64\www\aulas\aula02-10O\gui\formularioUsuario.php on line 53
+[24-Oct-2018 01:30:17 UTC] PHP Stack trace:
+[24-Oct-2018 01:30:17 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[24-Oct-2018 01:30:17 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[24-Oct-2018 01:30:17 UTC] PHP   3. ControleUsuario->editar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[24-Oct-2018 01:30:17 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleUsuario.php:25
+[24-Oct-2018 01:30:17 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 04:31:55 UTC] PHP Fatal error:  Call to undefined method Categoria::getNome() in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 55
+[20-Nov-2018 04:31:55 UTC] PHP Stack trace:
+[20-Nov-2018 04:31:55 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:31:55 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:31:55 UTC] PHP   3. ControleCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:31:55 UTC] PHP   4. DaoCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:52
+[20-Nov-2018 04:34:16 UTC] PHP Fatal error:  Call to undefined method Categoria::getSituacao() in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 56
+[20-Nov-2018 04:34:16 UTC] PHP Stack trace:
+[20-Nov-2018 04:34:16 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:34:16 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:34:16 UTC] PHP   3. ControleCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:34:16 UTC] PHP   4. DaoCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:52
+[20-Nov-2018 04:39:52 UTC] PHP Fatal error:  Call to undefined method Categoria::getSituacao() in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 56
+[20-Nov-2018 04:39:52 UTC] PHP Stack trace:
+[20-Nov-2018 04:39:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:39:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:39:52 UTC] PHP   3. ControleCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:39:52 UTC] PHP   4. DaoCategoria->salvar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:52
+[20-Nov-2018 04:49:10 UTC] PHP Notice:  Undefined variable: svalor in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 70
+[20-Nov-2018 04:49:10 UTC] PHP Stack trace:
+[20-Nov-2018 04:49:10 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:49:10 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:49:10 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:52:44 UTC] PHP Notice:  Undefined variable: svalor in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 70
+[20-Nov-2018 04:52:44 UTC] PHP Stack trace:
+[20-Nov-2018 04:52:44 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:52:44 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:52:44 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:52:50 UTC] PHP Notice:  Undefined variable: svalor in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 70
+[20-Nov-2018 04:52:50 UTC] PHP Stack trace:
+[20-Nov-2018 04:52:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:52:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:52:50 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:54:15 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setCodigo() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 77 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 86
+[20-Nov-2018 04:54:15 UTC] PHP Stack trace:
+[20-Nov-2018 04:54:15 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:54:15 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:54:15 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:54:15 UTC] PHP   4. Produto->setCodigo() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:77
+[20-Nov-2018 04:54:22 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setCodigo() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 77 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 86
+[20-Nov-2018 04:54:22 UTC] PHP Stack trace:
+[20-Nov-2018 04:54:22 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:54:22 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:54:22 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:54:22 UTC] PHP   4. Produto->setCodigo() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:77
+[20-Nov-2018 04:56:04 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setDescricao() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 78 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 90
+[20-Nov-2018 04:56:04 UTC] PHP Stack trace:
+[20-Nov-2018 04:56:04 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:56:04 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:56:04 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:56:04 UTC] PHP   4. Produto->setDescricao() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:78
+[20-Nov-2018 04:58:23 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setDescricao() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 78 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 90
+[20-Nov-2018 04:58:23 UTC] PHP Stack trace:
+[20-Nov-2018 04:58:23 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:58:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:58:23 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:58:23 UTC] PHP   4. Produto->setDescricao() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:78
+[20-Nov-2018 04:58:26 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setDescricao() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 78 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 90
+[20-Nov-2018 04:58:26 UTC] PHP Stack trace:
+[20-Nov-2018 04:58:26 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:58:26 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:58:26 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:58:26 UTC] PHP   4. Produto->setDescricao() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:78
+[20-Nov-2018 04:59:57 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setDescricao() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 78 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 90
+[20-Nov-2018 04:59:57 UTC] PHP Stack trace:
+[20-Nov-2018 04:59:57 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 04:59:57 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 04:59:57 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 04:59:57 UTC] PHP   4. Produto->setDescricao() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:78
+[20-Nov-2018 05:00:50 UTC] PHP Catchable fatal error:  Argument 1 passed to Produto::setStatus() must be an instance of String, string given, called in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 80 and defined in C:\wamp64\www\aulas\aula02-10O\model\Produto.php on line 98
+[20-Nov-2018 05:00:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:00:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:00:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:00:50 UTC] PHP   3. ControleProduto->salvar() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:00:50 UTC] PHP   4. Produto->setStatus() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:80
+[20-Nov-2018 05:26:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 22
+[20-Nov-2018 05:26:39 UTC] PHP Stack trace:
+[20-Nov-2018 05:26:39 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:26:39 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:26:39 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:26:39 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:26:39 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:31:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 22
+[20-Nov-2018 05:31:23 UTC] PHP Stack trace:
+[20-Nov-2018 05:31:23 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:31:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:31:23 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:31:23 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:31:23 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 22
+[20-Nov-2018 05:31:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:31:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:31:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:31:25 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:31:25 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:31:25 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:31:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 22
+[20-Nov-2018 05:31:28 UTC] PHP Stack trace:
+[20-Nov-2018 05:31:28 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:31:28 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:31:28 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:31:28 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:31:28 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:33:48 UTC] PHP Notice:  Undefined variable: dc in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 27
+[20-Nov-2018 05:33:48 UTC] PHP Stack trace:
+[20-Nov-2018 05:33:48 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:33:48 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:33:48 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:33:48 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:33:48 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:33:50 UTC] PHP Notice:  Undefined variable: dc in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 27
+[20-Nov-2018 05:33:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:33:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:33:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:33:50 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:33:50 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:33:50 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:33:50 UTC] PHP Notice:  Undefined variable: dc in C:\wamp64\www\aulas\aula02-10O\gui\listaDeCategoria.php on line 27
+[20-Nov-2018 05:33:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:33:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:33:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:33:50 UTC] PHP   3. ControleCategoria->listaDeCategoria() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:33:50 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:15
+[20-Nov-2018 05:33:50 UTC] PHP   5. include_once() C:\wamp64\www\aulas\aula02-10O\libs\TGui.php:21
+[20-Nov-2018 05:36:12 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:36:12 UTC] PHP Stack trace:
+[20-Nov-2018 05:36:12 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:36:12 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:36:12 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:36:12 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:37:57 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:37:57 UTC] PHP Stack trace:
+[20-Nov-2018 05:37:57 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:37:57 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:37:57 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:37:57 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:38:02 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:38:02 UTC] PHP Stack trace:
+[20-Nov-2018 05:38:02 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:38:02 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:38:02 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:38:02 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:38:14 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:38:14 UTC] PHP Stack trace:
+[20-Nov-2018 05:38:14 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:38:14 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:38:14 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:38:14 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:06 UTC] PHP Fatal error:  Cannot use [] for reading in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:06 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:06 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:06 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:06 UTC] PHP   3. class_exists() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:52
+[20-Nov-2018 05:39:06 UTC] PHP   4. __autoload() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:52
+[20-Nov-2018 05:39:08 UTC] PHP Fatal error:  Cannot use [] for reading in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:08 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:08 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:08 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:08 UTC] PHP   3. class_exists() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:52
+[20-Nov-2018 05:39:08 UTC] PHP   4. __autoload() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:52
+[20-Nov-2018 05:39:22 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:22 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:22 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:22 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:22 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:22 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:22 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:22 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:22 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:22 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:36 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:36 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:36 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:36 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:36 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:36 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:42 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:42 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:42 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:42 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:42 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:42 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:42 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:42 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:42 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:42 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:50 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:50 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:50 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:50 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:51 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:51 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:51 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:51 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:51 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:52 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:52 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:52 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:52 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:52 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:53 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:53 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:53 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:53 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:53 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:53 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:53 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:53 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:53 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:53 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:53 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:53 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:53 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:53 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:53 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:53 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:53 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:53 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:53 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:53 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:53 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:53 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:54 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php on line 94
+[20-Nov-2018 05:39:54 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:54 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:54 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:54 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:54 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:54 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:54 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:54 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:54 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:54 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:39:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:39:59 UTC] PHP Stack trace:
+[20-Nov-2018 05:39:59 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:39:59 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:39:59 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:39:59 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:41:17 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:41:17 UTC] PHP Stack trace:
+[20-Nov-2018 05:41:17 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:41:17 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:41:17 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:41:17 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:41:19 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:41:19 UTC] PHP Stack trace:
+[20-Nov-2018 05:41:19 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:41:19 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:41:19 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:41:19 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:41:20 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:41:20 UTC] PHP Stack trace:
+[20-Nov-2018 05:41:20 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:41:20 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:41:20 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:41:20 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:41:20 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:41:20 UTC] PHP Stack trace:
+[20-Nov-2018 05:41:20 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:41:20 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:41:20 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:41:20 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:44:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:44:23 UTC] PHP Stack trace:
+[20-Nov-2018 05:44:23 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:44:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:44:23 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:44:23 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:44:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:44:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:44:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:44:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:44:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:44:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:44:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:44:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:44:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:44:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:44:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:44:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:44:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:44:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:44:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:44:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:44:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:44:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:45:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:45:23 UTC] PHP Stack trace:
+[20-Nov-2018 05:45:23 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:45:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:45:23 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:45:23 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:45:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:45:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:45:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:45:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:45:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:45:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:45:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:45:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:45:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:45:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:45:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:45:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:45:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:45:24 UTC] PHP Stack trace:
+[20-Nov-2018 05:45:24 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:45:24 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:45:24 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:45:24 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:45:37 UTC] PHP Fatal error:  Class 'categorias' not found in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 33
+[20-Nov-2018 05:45:37 UTC] PHP Stack trace:
+[20-Nov-2018 05:45:37 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:45:37 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:45:37 UTC] PHP   3. ControleCategoria->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:45:37 UTC] PHP   4. DaoCategoria->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:60
+[20-Nov-2018 05:45:37 UTC] PHP   5. PDOStatement->fetchObject() C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php:33
+[20-Nov-2018 05:46:48 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:46:48 UTC] PHP Stack trace:
+[20-Nov-2018 05:46:48 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:46:48 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:46:48 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:46:48 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:46:54 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:46:54 UTC] PHP Stack trace:
+[20-Nov-2018 05:46:54 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:46:54 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:46:54 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:46:54 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:47:45 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:47:45 UTC] PHP Stack trace:
+[20-Nov-2018 05:47:45 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:47:45 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:47:45 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:47:45 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:48:36 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:48:36 UTC] PHP Stack trace:
+[20-Nov-2018 05:48:36 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:48:36 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:48:36 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:48:36 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:51:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:51:44 UTC] PHP Stack trace:
+[20-Nov-2018 05:51:44 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:51:44 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:51:44 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:51:44 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:51:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:51:44 UTC] PHP Stack trace:
+[20-Nov-2018 05:51:44 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:51:44 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:51:44 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:51:44 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:51:45 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:51:45 UTC] PHP Stack trace:
+[20-Nov-2018 05:51:45 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:51:45 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:51:45 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:51:45 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:50 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:50 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:50 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:50 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:50 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:50 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:50 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:50 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:50 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:51 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:51 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:51 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:51 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:51 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:51 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:52:51 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:52:51 UTC] PHP Stack trace:
+[20-Nov-2018 05:52:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:52:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:52:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:52:51 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:53:38 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:53:38 UTC] PHP Stack trace:
+[20-Nov-2018 05:53:38 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:53:38 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:53:38 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:53:38 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:53:40 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:53:40 UTC] PHP Stack trace:
+[20-Nov-2018 05:53:40 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:53:40 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:53:40 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:53:40 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:57:47 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:57:47 UTC] PHP Stack trace:
+[20-Nov-2018 05:57:47 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:57:47 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:57:47 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:57:47 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:57:48 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:57:48 UTC] PHP Stack trace:
+[20-Nov-2018 05:57:48 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:57:48 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:57:48 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:57:48 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:58:21 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:58:21 UTC] PHP Stack trace:
+[20-Nov-2018 05:58:21 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:58:21 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:58:21 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:58:21 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:58:21 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:58:21 UTC] PHP Stack trace:
+[20-Nov-2018 05:58:21 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:58:21 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:58:21 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:58:21 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 05:58:25 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:58:25 UTC] PHP Stack trace:
+[20-Nov-2018 05:58:25 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:58:25 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:58:25 UTC] PHP   3. ControleProduto->confirmaExclusao() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:58:25 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:106
+[20-Nov-2018 05:59:23 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 05:59:23 UTC] PHP Stack trace:
+[20-Nov-2018 05:59:23 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 05:59:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 05:59:23 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 05:59:23 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:00:51 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:00:51 UTC] PHP Stack trace:
+[20-Nov-2018 06:00:51 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:00:51 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:00:51 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:00:51 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:00:52 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:00:52 UTC] PHP Stack trace:
+[20-Nov-2018 06:00:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:00:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:00:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:00:52 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:00:52 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:00:52 UTC] PHP Stack trace:
+[20-Nov-2018 06:00:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:00:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:00:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:00:52 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:00:52 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:00:52 UTC] PHP Stack trace:
+[20-Nov-2018 06:00:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:00:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:00:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:00:52 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:00:52 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:00:52 UTC] PHP Stack trace:
+[20-Nov-2018 06:00:52 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:00:52 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:00:52 UTC] PHP   3. ControleProduto->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:00:52 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:96
+[20-Nov-2018 06:01:48 UTC] PHP Notice:  Undefined property: Produto::$idcategoria in C:\wamp64\www\aulas\aula02-10O\dao\DaoProduto.php on line 42
+[20-Nov-2018 06:01:48 UTC] PHP Stack trace:
+[20-Nov-2018 06:01:48 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:01:48 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:01:48 UTC] PHP   3. ControleProduto->confirmaExclusao() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:01:48 UTC] PHP   4. DaoProduto->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleProduto.php:106
+[20-Nov-2018 06:01:56 UTC] PHP Fatal error:  Class 'categorias' not found in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 33
+[20-Nov-2018 06:01:56 UTC] PHP Stack trace:
+[20-Nov-2018 06:01:56 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:01:56 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:01:56 UTC] PHP   3. ControleCategoria->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:01:56 UTC] PHP   4. DaoCategoria->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:60
+[20-Nov-2018 06:01:56 UTC] PHP   5. PDOStatement->fetchObject() C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php:33
+[20-Nov-2018 06:02:14 UTC] PHP Fatal error:  Class 'categorias' not found in C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php on line 33
+[20-Nov-2018 06:02:14 UTC] PHP Stack trace:
+[20-Nov-2018 06:02:14 UTC] PHP   1. {main}() C:\wamp64\www\aulas\aula02-10O\public\index.php:0
+[20-Nov-2018 06:02:14 UTC] PHP   2. TApp->executar() C:\wamp64\www\aulas\aula02-10O\public\index.php:37
+[20-Nov-2018 06:02:14 UTC] PHP   3. ControleCategoria->excluir() C:\wamp64\www\aulas\aula02-10O\libs\TApp.php:63
+[20-Nov-2018 06:02:14 UTC] PHP   4. DaoCategoria->listar() C:\wamp64\www\aulas\aula02-10O\to\ControleCategoria.php:60
+[20-Nov-2018 06:02:14 UTC] PHP   5. PDOStatement->fetchObject() C:\wamp64\www\aulas\aula02-10O\dao\DaoCategoria.php:33

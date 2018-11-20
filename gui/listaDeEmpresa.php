@@ -4,33 +4,34 @@
 
             <a class="btn btn-danger" href="<?php echo URL; ?>Login/logout/">
                 <i class="glyphicon glyphicon-remove"></i> Logout</a>
-            <a class="btn btn-primary" href="<?php echo URL; ?>controle-usuario/novo/">Novo Usuário</a>
+            <a class="btn btn-primary" href="<?php echo URL; ?>controle-empresa/novo/">Nova Empresa</a>
 
             <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>NOME</th>
-                        <th>Image</th>
+                        <th>SITUAÇÃO</th>
                         <th>controles</th>
                     </tr>
                 <tbody>
 
-                    <?php if ($this->getDados('usuarios')): ?>
-                        <?php $ar = $this->getDados('usuarios'); ?>
+                    <?php if ($this->getDados('empresas')): ?>
+                        <?php $ar = $this->getDados('empresas'); ?>
+                    <?php $des = ["I"=>"INATIVO", "A"=>"ATIVO"];?> 
 
                      <?php foreach ($ar as $empresa): ?>
-                           <?php $empresa instanceof Usuario; ?>
+                           <?php $empresa instanceof Empresa; ?>
                                  
                             <tr><td><?= $empresa->getId() ?></td>
                             <td><?= $empresa->getNome() ?></td>
-                            <td><img class="thumbnail thumb" src="<?= URL.$empresa->getThumbnail_path() ?>"/></td>
+                            <td><?=$des[$empresa->getSituacao()]?></td>
                             <td>
                             <a class="btn btn-default" 
-                               href="<?= URL ?>controle-usuario/excluir/<?= $empresa->getId() ?>">
+                               href="<?= URL ?>controle-empresa/excluir/<?= $empresa->getId() ?>">
                                     excluir
                             </a> &nbsp;
-                            <a class="btn btn-default" href="<?= URL ?>controle-usuario/editar/<?= $empresa->getId() ?>">
+                            <a class="btn btn-default" href="<?= URL ?>controle-empresa/editar/<?= $empresa->getId() ?>">
                                     editar
                             </a>
                             </td></tr>

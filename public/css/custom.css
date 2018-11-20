@@ -22,3 +22,37 @@ and open the template in the editor.
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
 }
+nav.menu-principal{
+    display: block; 
+    width: 100%; 
+}
+nav.menu-principal ul, nav.menu-principal ul li{
+    display: block; 
+    list-style: none; 
+}
+nav.menu-principal ul li{
+    display: inline-block; 
+}
+.item-menu{
+    width: 200px; 
+    height: 200px; 
+    text-align: center; 
+    background: #eeeeee;
+    font-size: 45px; 
+    color: #333; 
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px #333; 
+    -moz-box-shadow: 2px 2px 5px #333; /* para nevegador mozila*/  
+    transition: all ease-in-out .7s;
+}
+.item-menu:hover{
+    transform: scale(1.5,1.5)rotate(360deg);
+    background: #fc9; 
+}
+.item-menu a{
+    padding-top: 70px;
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    text-decoration: none; 
+}

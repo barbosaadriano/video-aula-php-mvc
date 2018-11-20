@@ -10,7 +10,7 @@ interface IDao {
 
     public function listarTodos();
 
-    public function salvar(Usuario $u);
+    public function salvar($u);
 
-    public function excluir(Usuario $u);
+    public function excluir($u);
 }

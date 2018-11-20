@@ -6,3 +6,9 @@ create table usuario(
 	status char(1)	
 );
 alter table usuario add thumbnail_path varchar(100);
+
+create table if not exists empresa (
+id integer not null primary key auto_increment, 
+nome varchar(45), 
+situacao varchar(25)
+); 

@@ -37,6 +37,11 @@ class Usuario {
      */
     private $status;
     private $thumbnail_path;
+    /**
+     *
+     * @var Empresa
+     */
+    private $empresa;
 
     public function __construct() {
 //        $this->id = null;
@@ -89,5 +94,14 @@ class Usuario {
     function setThumbnail_path($thumbnail_path) {
         $this->thumbnail_path = $thumbnail_path;
     }
+
+    function getEmpresa() {
+        return $this->empresa;
+    }
+
+    function setEmpresa(Empresa $empresa) {
+        $this->empresa = $empresa;
+    }
+
 
 }

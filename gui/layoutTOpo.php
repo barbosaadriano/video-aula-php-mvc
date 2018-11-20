@@ -24,11 +24,14 @@
                     if ($user instanceof Usuario) :
                         ?>
                         <div class="alert alert-info">
+                            <a href="<?= URL ?>">
+                                <i class="glyphicon glyphicon-home"></i>
+                            </a>
                             <h3>Usuário logado</h3>
                             <?= $user->getNome() ?>
                             -
                             <?= $user->getLogin() ?>
-                            <img src="<?=URL.$user->getThumbnail_path()?>" width="50" />
+                            <img src="<?= URL . $user->getThumbnail_path() ?>" width="50" />
                         </div>
                         <?php
                     endif;

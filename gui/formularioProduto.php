@@ -1,37 +1,37 @@
 <div class="container">
     <?php
     $id = "";
-    $nome = "";
-    $login = "";
-    $senha = "";
+    $codigo = "";
+    $descricao = "";
+    $valor = "";
     $status = "";
 
-    $usuario = $this->getDados("usuario");
-    $empresas = $this->getDados("empresas");
+    $produto = $this->getDados("produto");
+    $categoria = $this->getDados("categorias");
     
-    if ($usuario) {
-        $usuario instanceof Usuario;
-        $id = $usuario->getId();
-        $nome = $usuario->getNome();
-        $login = $usuario->getLogin();
-        $senha = $usuario->getSenha();
-        $status = $usuario->getStatus();
-        $thumbPath = $usuario->getThumbnail_path();
+    if ($produto) {
+        $produto instanceof Produto;
+        $id = $produto->getId();
+        $codigo = $produto->getCodigo();
+        $descricao = $produto->getDescricao();
+        $valor = $produto->getValor();
+        $status = $produto->getStatus();
+        $thumbPath = $produto->getThumbnail_path();
         if ($thumbPath == null || trim($thumbPath) == '') {
             $thumbPath = './img/noimage.png';
         }
     }
     ?>
 
-    <form method="post" enctype="multipart/form-data" action="<?php echo URL; ?>controle-usuario/salvar"> 
+    <form method="post" enctype="multipart/form-data" action="<?php echo URL; ?>controle-produto/salvar"> 
         <label>Id</label><br>
         <input class="form-control" type="text" readonly="true" value="<?php echo $id; ?>" name="id"><br>
-        <label>Nome</label><br>
-        <input class="form-control" type="text" value="<?php echo $nome; ?>" name="nome"><br>
-        <label>Login</label><br>
-        <input  class="form-control" type="text" value="<?php echo $login; ?>" name="login"><br>
-        <label>Senha</label><br>
-        <input class="form-control" type="password" value="<?php echo $senha; ?>" name="senha"><br>
+        <label>Código</label><br>
+        <input class="form-control" type="text" value="<?php echo $codigo; ?>" name="codigo"><br>
+        <label>Descrição</label><br>
+        <input  class="form-control" type="text" value="<?php echo $descricao; ?>" name="descricao"><br>
+        <label>Valor</label><br>
+        <input class="form-control" type="float" value="<?php echo $valor; ?>" name="valor"><br>
         <label>status</label><br>
         <select class="form-control" name="status">
             <option value="A" <?php
@@ -45,12 +45,12 @@
             }
             ?>>Inativo</option>
         </select><br>
-        <label>Empresas</label><br>
-        <select class="form-control" name="empresa">
-            <?php foreach($empresas as $emp) :
-                $emp instanceof Empresa;
+        <label>Categoria</label><br>
+        <select class="form-control" name="categoria">
+            <?php foreach($categoria as $c) :
+                $c instanceof Categoria;
                 ?> 
-            <option value="<?=$emp->getId()?>"><?=$emp->getNome()?></option>
+            <option value="<?=$c->getId()?>"><?=$c->getDescricao()?></option>
             <?php
             endforeach; 
             ?>
@@ -58,7 +58,7 @@
         <hr/>
         <div class="container">
             <div class="row">
-                <h2>Imagem de perfil</h2>
+                <h2>Imagem do Produto</h2>
                 <div class="col-md-3">
                     <div id="image-holder">
                         <img class="thumbnail" src="<?= URL . $thumbPath ?>">
@@ -73,7 +73,7 @@
         </div>
         <hr/>
         <input type="submit" class="btn btn-success" value="Salvar"><br>
-        <a class="btn btn-default" href="<?php echo URL; ?>controle-usuario/lista-de-usuario">voltar</a><br>
+        <a class="btn btn-default" href="<?php echo URL; ?>controle-produto/lista-de-produto">voltar</a><br>
     </form>
 </div>
 <script type="text/javascript" src="<?= URL ?>/js/jquery.3.1.1.min.js"></script>
